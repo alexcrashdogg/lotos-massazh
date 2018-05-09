@@ -31,6 +31,9 @@ body {
   h1.text-center {
     font-size: 13px;
   }
+  .intro p {
+    font-size: 15px;
+  }
 }
 
 
