@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .fh5co-hero, .fh5co-parallax {
   background-color: #555;
-  background-attachment: fixed;
+/*   background-attachment: fixed; */
   background-size: cover;
   position: relative;
 }
@@ -674,7 +674,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 350px;
     background-size: auto;
     background-repeat: no-repeat;
-    background-attachment: fixed, fixed; 
+/*     background-attachment: fixed, fixed;  */
     }    
   }
 /*# sourceMappingURL=style.css.map */
