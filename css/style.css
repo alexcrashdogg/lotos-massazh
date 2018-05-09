@@ -5,12 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
 body {
   font-family: "PT Sans", Arial, sans-serif;
   font-weight: 300;
@@ -27,10 +22,9 @@ body {
 
     font-size: 13px;
     line-height: 1.5;
-    margin-top: -5px;
+    margin-top: 30px;
     width: 75px;
     height: 75px;
-    margin-bottom: -70px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -97,19 +91,19 @@ h1, h2, h3, h4, h5, h6 {
   background: #52d3aa;
 }
 
-#fh5co-wrap {
+#wrap {
   position: relative;
   background: #fff;
   z-index: 2;
   margin-bottom: 450px;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-wrap {
+  #wrap {
     margin-bottom: auto;
   }
 }
 
-#fh5co-footer {
+#footer {
   padding-top: 4em;
   position: fixed;
   bottom: 0;
@@ -121,57 +115,57 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
 }
 @media screen and (max-width: 992px) {
-  #fh5co-footer {
+  #footer {
     height: inherit;
     position: relative;
     padding: 5em 0;
   }
 }
-#fh5co-footer .fh5co-social li {
+#footer .social li {
   display: block;
 }
-#fh5co-footer p {
+#footer p {
   line-height: 1.5;
 }
-#fh5co-footer h3 {
+#footer h3 {
   color: #fff;
   font-size: 20px;
 }
-#fh5co-footer a {
+#footer a {
   color: rgba(255, 255, 255, 0.7);
 }
-#fh5co-footer a:hover {
+#footer a:hover {
   color: #52d3aa;
 }
-#fh5co-footer ul {
+#footer ul {
   padding: 0;
   margin: 0;
 }
-#fh5co-footer ul li {
+#footer ul li {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-#fh5co-header {
+#header {
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 1000;
 }
-#fh5co-header nav {
+#header nav {
   text-align: center;
 }
-#fh5co-header nav ul {
+#header nav ul {
   padding: 0;
   margin: 0;
 }
-#fh5co-header nav li {
+#header nav li {
   padding: 0;
   margin: 0;
   list-style: none;
   display: inline;
 }
-#fh5co-header nav li a {
+#header nav li a {
   padding: 20px;
   color: rgba(255, 255, 255, 0.7);
   display: -moz-inline-stack;
@@ -182,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: 0.1s;
   transition: 0.1s;
 }
-#fh5co-header nav li a span {
+#header nav li a span {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -190,37 +184,37 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-header nav li a {
+  #header nav li a {
     padding: 10px 2px;
   }
 }
-#fh5co-header nav li a:hover {
+#header nav li a:hover {
   color: white;
 }
-#fh5co-header nav li a:hover span {
+#header nav li a:hover span {
   border-bottom: 2px solid #fff;
 }
-#fh5co-header nav li.fh5co-active a {
+#header nav li.active a {
   color: #fff;
 }
-#fh5co-header nav li.fh5co-active a span {
+#header nav li.active a span {
   border-bottom: 2px solid #fff;
 }
 
 .fh5co-table,
 .fh5co-table-cell,
-.fh5co-hero,
+.hero,
 .fh5co-parallax {
   height: 670px;
 }
 
-.fh5co-hero, .fh5co-parallax {
+.hero, .fh5co-parallax {
   background-color: #555;
-/*   background-attachment: fixed; */
+  /*background-attachment: fixed;*/
   background-size: cover;
   position: relative;
 }
-.fh5co-hero .overlay, .fh5co-parallax .overlay {
+.hero .overlay, .fh5co-parallax .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -231,37 +225,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 768px) {
-  .fh5co-hero, .fh5co-parallax {
+  .hero, .fh5co-parallax {
     height: inherit;
     padding: 4em 0;
   }
 /*@media screen and (max-width: 768px) {
-.fh5co-table, .fh5co-table-cell, .fh5co-hero, .fh5co-parallax .text-center {
+.fh5co-table, .fh5co-table-cell, .hero, .fh5co-parallax .text-center {
     height: 370px;
     font-size: 14px;
     padding: 4em 0;
   }*/
 
 }
-.fh5co-hero .fh5co-intro h1, .fh5co-parallax .fh5co-intro h1 {
+.hero .intro h1, .fh5co-parallax .intro h1 {
   color: #fff;
   font-size: 70px;
   font-weight: 300;
   margin-bottom: 10px;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-hero .fh5co-intro h1, .fh5co-parallax .fh5co-intro h1 {
+  .hero .intro h1, .fh5co-parallax .intro h1 {
     font-size: 30px;
   }
 }
-.fh5co-hero .fh5co-intro p, .fh5co-parallax .fh5co-intro p {
+.hero .intro p, .fh5co-parallax .intro p {
   color: #fff;
 }
-.fh5co-hero .fh5co-intro p a, .fh5co-parallax .fh5co-intro p a {
+.hero .intro p a, .fh5co-parallax .intro p a {
   color: #fff;
   border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
-.fh5co-hero .fh5co-intro p a:hover, .fh5co-parallax .fh5co-intro p a:hover {
+.hero .intro p a:hover, .fh5co-parallax .intro p a:hover {
   color: #fff;
 }
 
@@ -274,73 +268,73 @@ h1, h2, h3, h4, h5, h6 {
   vertical-align: middle;
 }
 
-.fh5co-section {
+.section {
   padding: 5em 0;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-section {
+  .section {
     padding: 3em 0;
   }
 }
 
-.fh5co-feature {
+.feature {
   text-align: left;
   width: 100%;
   float: left;
   padding: 20px;
 }
-.fh5co-feature .fh5co-icon {
+.feature .icon {
   float: left;
   width: 10%;
   display: block;
   margin-top: 5px;
 }
-.fh5co-feature .fh5co-icon i {
+.feature .icon i {
   color: #52d3aa;
   font-size: 70px;
 }
 @media screen and (max-width: 1200px) {
-  .fh5co-feature .fh5co-icon i {
+  .feature .icon i {
     font-size: 40px;
   }
 }
-.fh5co-feature.fh5co-feature-sm .fh5co-icon i {
+.feature.feature-sm .icon i {
   color: #52d3aa;
   font-size: 28px;
 }
 @media screen and (max-width: 1200px) {
-  .fh5co-feature.fh5co-feature-sm .fh5co-icon i {
+  .feature.feature-sm .icon i {
     font-size: 28px;
   }
 }
-.fh5co-feature .fh5co-text {
+.feature .text {
   float: right;
   width: 80%;
 }
 @media screen and (max-width: 768px) {
-  .fh5co-feature .fh5co-text {
+  .feature .text {
     width: 78%; /* ***************************** */
   }
 }
 @media screen and (max-width: 480px) {
-  .fh5co-feature .fh5co-text .img {
+  .feature .text .img {
     width: 72%;
   }
 }
-.fh5co-feature .fh5co-text h2, .fh5co-feature .fh5co-text h3 {
+.feature .text h2, .feature .text h3 {
   margin: 0;
   padding: 0;
 }
-.fh5co-feature .fh5co-text h3 {
+.feature .text h3 {
   margin-bottom: 20px;
   color: rgba(0, 0, 0, 0.8);
 }
 
-.fh5co-social {
+.social {
   padding: 0;
   margin: 0;
 }
-.fh5co-social li {
+.social li {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -349,7 +343,7 @@ h1, h2, h3, h4, h5, h6 {
   zoom: 1;
   *display: inline;
 }
-.fh5co-social li a span {
+.social li a span {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
@@ -514,17 +508,17 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #52d3aa;
 }
 
-.fh5co-check {
+.check {
   padding: 0 0 0 0;
   margin: 0 0 1.5em 0;
 }
-.fh5co-check li {
+.check li {
   padding: 0 0 0 40px;
   margin: 0;
   list-style: none;
   position: relative;
 }
-.fh5co-check li:before {
+.check li:before {
   font-family: 'icomoon';
   speak: none;
   font-style: normal;
@@ -670,11 +664,11 @@ h1, h2, h3, h4, h5, h6 {
 /*--//slid--*/ 
 
 @media screen and (max-width: 768px) {
-  .fh5co-table, .fh5co-table-cell, .fh5co-hero, .fh5co-parallax {
+  .fh5co-table, .fh5co-table-cell, .hero, .fh5co-parallax {
     height: 350px;
     background-size: auto;
     background-repeat: no-repeat;
-/*     background-attachment: fixed, fixed;  */
+    /*background-attachment: fixed, fixed; */
     }    
   }
 /*# sourceMappingURL=style.css.map */
